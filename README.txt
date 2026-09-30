@@ -27,7 +27,7 @@ PREMIUM EDITION
 --------------
 Includes navy and gold branding, a responsive concept dashboard, keyboard-friendly
 mobile navigation, favicon, direct calling and WhatsApp enquiry links.
-The dashboard is illustrative: it is not a screenshot of the actual software.
+The website displays the supplied actual UBS interface screenshot, including a full-size view.
 The email link opens the visitor’s email application. No contact submissions are collected by this static site.
 
 Open index.html in a browser to preview. Upload all five files, including
@@ -35,3 +35,8 @@ favicon.svg, to your web host. This package does not itself publish the website.
 Google Fonts load when online; local fallback fonts work offline.
 
 Brand assets: assets/kds-logo.jpeg is the supplied KD SOFTWARES logo. assets/ubs-logo.png is the supplied UBS logo. Upload the assets folder together with index.html, style.css and script.js.
+
+CORPORATE EDITION
+Blue and white design matching supplied logos. Upload index.html, style.css,
+script.js and the complete assets folder together. Actual UBS interface image
+is included in assets/ubs-interface.png.
