@@ -56,8 +56,8 @@
 
         <div class="dashboard-wrap actual-preview">
           <div class="preview-label">ULTIMATE BOOKKEEPING SYSTEM</div>
-          <a class="interface-link" href="assets/ubs-interface.png" target="_blank" rel="noopener" aria-label="Open the UBS interface screenshot in full size">
-            <img class="interface-image" src="assets/ubs-interface.png" alt="Ultimate Bookkeeping System dashboard showing sales, purchases, payment reminders and quick actions for billing and vouchers" width="1920" height="1080" fetchpriority="high">
+          <a class="interface-link" href="assets/ubs-dashboard.png" target="_blank" rel="noopener" aria-label="Open the UBS interface screenshot in full size">
+            <img class="interface-image" src="assets/ubs-dashboard.png" alt="Ultimate Bookkeeping System dashboard showing sales, purchases, payment reminders and quick actions for billing and vouchers" width="1600" height="900" fetchpriority="high">
           </a>
           <div class="preview-caption"><strong>Your accounting workspace</strong><span>Actual UBS interface · Select to enlarge</span></div>
         </div>
@@ -82,11 +82,20 @@
           <p>A complete business accounting platform designed to bring bookkeeping, billing, GST and financial reporting together in one system.</p>
         </div>
 
-        <figure class="software-showcase">
-          <div class="showcase-header"><div><span class="section-tag">INSIDE UBS</span><h3>A closer look at your accounting workspace.</h3></div><a href="assets/ubs-interface.png" target="_blank" rel="noopener">View full-size interface</a></div>
-          <a href="assets/ubs-interface.png" target="_blank" rel="noopener" aria-label="View the actual UBS interface in full size"><img src="assets/ubs-interface.png" alt="Actual UBS software interface, including financial and GST report menus, payment reminders and voucher quick actions" width="1920" height="1080" loading="lazy"></a>
-          <figcaption>Ultimate Bookkeeping System — dashboard shown with a demo company.</figcaption>
-        </figure>
+        <div class="interface-gallery" id="interface-gallery">
+          <div class="gallery-intro"><span class="section-tag">INSIDE UBS</span><h3>Three views. One connected workspace.</h3><p>Explore the real UBS interface with fictional demo company data.</p></div>
+          <figure class="software-showcase">
+            <div class="showcase-header"><div><span class="section-tag" id="gallery-tag">BILLING &amp; GST</span><h3 id="gallery-title">From line items to a sales bill.</h3></div><a id="gallery-link" href="assets/ubs-billing.png" target="_blank" rel="noopener">View full-size interface ?</a></div>
+            <a id="gallery-image-link" href="assets/ubs-billing.png" target="_blank" rel="noopener" aria-label="Open the selected UBS interface in full size"><img id="gallery-image" src="assets/ubs-billing.png" alt="Actual UBS sale bill form with demo customer, item quantities, rates and GST" width="1600" height="900" loading="lazy"></a>
+            <figcaption id="gallery-caption" aria-live="polite">Create sales bills with party details, item quantities, prices and GST rates. Shown with fictional demo data.</figcaption>
+          </figure>
+          <div class="gallery-choices" role="group" aria-label="Choose a UBS interface preview">
+            <button class="gallery-choice" type="button" data-view="dashboard" aria-pressed="false"><img src="assets/ubs-dashboard.png" alt="" width="1600" height="900" loading="lazy"><span class="gallery-choice-copy"><small>01 ? DASHBOARD</small><strong>Your business at a glance.</strong><span>Sales, purchases, profit and upcoming payments.</span></span></button>
+            <button class="gallery-choice" type="button" data-view="billing" aria-pressed="true"><img src="assets/ubs-billing.png" alt="" width="1600" height="900" loading="lazy"><span class="gallery-choice-copy"><small>02 ? BILLING &amp; GST</small><strong>Bring every bill together.</strong><span>Customer details, items, rates and GST.</span></span></button>
+            <button class="gallery-choice" type="button" data-view="reports" aria-pressed="false"><img src="assets/ubs-reports.png" alt="" width="1600" height="900" loading="lazy"><span class="gallery-choice-copy"><small>03 ? FINANCIAL REPORTS</small><strong>Read the numbers clearly.</strong><span>Trial balance, debit and credit balances.</span></span></button>
+          </div>
+          <noscript><p>View full-size interfaces: <a href="assets/ubs-dashboard.png">Dashboard</a> ? <a href="assets/ubs-billing.png">Billing</a> ? <a href="assets/ubs-reports.png">Financial reports</a>.</p></noscript>
+        </div>
 
         <div class="feature-grid">
           <article class="feature-card featured">
