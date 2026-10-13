@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /kdsoftwares/
+Sitemap: https://kdsoftwaresindia.github.io/kdsoftwares/sitemap.xml
